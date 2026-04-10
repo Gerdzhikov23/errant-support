@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Errant — Support</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
+            background: #fff7e8;
+            color: #3a2e1e;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background: linear-gradient(135deg, #965b01, #c97a01);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 1.5rem 2.5rem;
+        }
+
+        header h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 640px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 3rem;
+            flex: 1;
+        }
+
+        section { margin-bottom: 2.5rem; }
+
+        h2 {
+            font-size: 1.3rem;
+            margin-bottom: 0.75rem;
+            color: #965b01;
+        }
+
+        p, li { font-size: 1rem; color: #5a4a38; }
+        ul { padding-left: 1.25rem; }
+        li { margin-bottom: 0.4rem; }
+
+        .contact-card {
+            background: #fff;
+            border: 1px solid #e8dcc8;
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .contact-card a {
+            display: inline-block;
+            margin-top: 1rem;
+            background: linear-gradient(135deg, #965b01, #c97a01);
+            color: #fff;
+            text-decoration: none;
+            padding: 0.75rem 2rem;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: opacity 0.2s;
+        }
+
+        .contact-card a:hover { opacity: 0.85; }
+
+        details {
+            background: #fff;
+            border: 1px solid #e8dcc8;
+            border-radius: 10px;
+            margin-bottom: 0.75rem;
+            overflow: hidden;
+        }
+
+        summary {
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            font-weight: 600;
+            color: #3a2e1e;
+        }
+
+        details[open] summary { border-bottom: 1px solid #e8dcc8; }
+
+        details p {
+            padding: 1rem 1.25rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.85rem;
+            color: #a89478;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Errant</h1>
+        <p>Gamify your adventures. Level up your life.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Errant</h2>
+            <p>
+                Errant turns everyday activities into real-world quests. Complete challenges in Discovery, Wellness, Social, Creativity, and Adventure to earn XP, build streaks, climb the leaderboard, and share your journey with friends.
+            </p>
+        </section>
+
+        <section>
+            <h2>Frequently Asked Questions</h2>
+
+            <details>
+                <summary>How do I earn XP?</summary>
+                <p>Complete quests from the Quest Board, take on the Quest of the Week for bonus rewards, and challenge friends. Maintain a daily streak to unlock XP multipliers up to 4x.</p>
+            </details>
+
+            <details>
+                <summary>What are ranks and leagues?</summary>
+                <p>As you earn XP you progress through ranks — Scout, Knight, and Champion — and compete in Bronze, Silver, and Gold leagues on the leaderboard.</p>
+            </details>
+
+            <details>
+                <summary>How do challenges work?</summary>
+                <p>Challenge a friend to complete a quest before time runs out. The winner takes the XP stake. You can view active challenges in the Friends tab.</p>
+            </details>
+
+            <details>
+                <summary>Is my data private?</summary>
+                <p>Your feed posts can be shared publicly or limited to friends only. We do not sell your personal data. For full details, please contact us using the link below.</p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <div class="contact-card">
+                <p>Have a question, found a bug, or just want to say hi? We'd love to hear from you.</p>
+                <a href="mailto:petergerdzhikov20@gmail.com">Email Support</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Peter Gerdzhikov. All rights reserved.
+    </footer>
+</body>
+</html>
